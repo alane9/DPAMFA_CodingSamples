@@ -1,10 +1,12 @@
 from PIL import Image 
 import numpy as np
+
 ## This code produces 6 flags from various Countries. It utilizes PIL and NumPY in order to create 6 unique flag designs.
 
 # How to use: 
-# 1. Run python flag.py
-# 2. The flags should appear as PNGs inside the flag.py file loction
+#  1. Place overlay images (red_circle.png, leaf.png) in the same folder.
+## 2. Run in Python 3: python flag.py
+## 3. PNG files will appear in the script folder.
 
 class flag:
     def __init__(self, width, height):
